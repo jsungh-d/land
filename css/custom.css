@@ -1,0 +1,169 @@
+.land_list_table  thead th {
+    background-color: #e8e8e8;
+}
+.table-custom th {
+    text-align: center;
+    font-size: 12px;
+}
+.table-custom td {
+    text-align: center;
+    font-size: 12px;
+}
+.modal-header {
+    padding: 10px 15px;
+}
+.modal-title {font-size: 14px;}
+.modal-dialog form {
+    display: flex;
+}
+.modal-body {
+    padding: 10px 15px;
+}
+.modal label {
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+.modal .form-group {
+    margin-bottom: 5px;
+}
+.modal .form-control-sm {
+    font-size: 12px;
+}
+.modal select.form-control-sm,
+.modal input.form-control-sm {
+    height: 32px !important;
+}
+.form-group .row {
+    margin-left: -2px;
+    margin-right: -2px;
+}
+.form-group .row .col {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.checkbox-custom {
+    margin-bottom: 4px;
+}
+.checkbox-custom label {
+    margin-bottom: 0;
+    margin-right: 10px;
+    line-height: 35px;
+    font-weight: 400 !important;
+}
+.checkbox-custom label input {
+    margin-right: 4px;
+}
+.rent_area {
+    display: flex;
+    justify-content: space-between;
+}
+.rent_number {
+    width: 24%;
+    display: flex;
+}
+.rent_number input[type="text"]:nth-child(1) {
+    width: 100px;
+}
+
+.rent_tel {
+    margin-right: -15px !important;
+    margin-left: -15px !important;
+}
+.rent_tel input[type="text"]:nth-child(1) {
+    width: calc(80px - 4px);
+    margin-right: 4px;
+}
+.rent_num {
+    display: flex;
+}
+
+/*modal img*/
+.modal_img_upload {
+    width: 35%;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    outline: 0;
+}
+.add_img_prev, .mod_img_prev {
+    margin-bottom: 5px;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    border-radius: 0;
+}
+.modIMG {
+    position: relative;
+}
+.modIMG img {
+    width: 200px;
+}
+.modDelImgBtn  {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.modImgBtn {
+    position: absolute;
+    top: 0;
+    right: 17px;
+}
+
+.pop_table th, .pop_table td {
+    font-size: 12px;
+    font-weight: 400;
+}
+.pop_table thead th {
+    background-color: #f0f3f5;
+    border-width: 1px;
+}
+.pop_table tbody th {
+    font-size: 11px;
+    text-align: left;
+    color: #757575;
+}
+.pop_table tbody td {
+    text-align: right;
+    border-right: 1px solid #ccc;
+}
+.pop_table tbody td:last-child {
+    border-right: 0;
+}
+.pop_none_br tbody td {
+    border-right: 0;	
+}
+.pop_table tfoot td {
+    text-align: left;
+}
+.pop_table .custom_tb th {
+    background: none;
+    color: #757575;
+}
+
+
+/*building Modal*/
+
+#buildingModal .modal-body {
+    padding: 0;
+}
+#buildingModal .card-body {
+    padding: 0;
+}
+.floorApiTarget_header {
+    margin:0;
+}
+.floorApiTarget_header thead th {
+    
+}
+#buildingModal .floorApiTarget {
+    height:215px;
+    overflow: auto;
+}
+#buildingModal .floorApiTarget_table thead th {
+    border-top: none;
+}
+.floorApiTarget_wrapper {
+    height: 258px; 
+    overflow: auto;
+}
